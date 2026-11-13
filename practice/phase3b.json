@@ -1,0 +1,74 @@
+{
+  "student_id": 230103215,
+  "quick": false,
+  "n": 256,
+  "rows": [
+    {
+      "variant": 1,
+      "bs": 0,
+      "median_ms": 514.0208,
+      "gflops": 0.0652783544946041,
+      "tile_bytes": null
+    },
+    {
+      "variant": 2,
+      "bs": 0,
+      "median_ms": 551.3816,
+      "gflops": 0.06085518994467715,
+      "tile_bytes": null
+    },
+    {
+      "variant": 3,
+      "bs": 8,
+      "median_ms": 687.6578,
+      "gflops": 0.04879524670555616,
+      "tile_bytes": 1536
+    },
+    {
+      "variant": 3,
+      "bs": 16,
+      "median_ms": 575.5798,
+      "gflops": 0.05829675051139738,
+      "tile_bytes": 6144
+    },
+    {
+      "variant": 3,
+      "bs": 32,
+      "median_ms": 556.94,
+      "gflops": 0.06024783998276295,
+      "tile_bytes": 24576
+    },
+    {
+      "variant": 3,
+      "bs": 64,
+      "median_ms": 560.9374,
+      "gflops": 0.05981849668073479,
+      "tile_bytes": 98304
+    },
+    {
+      "variant": 3,
+      "bs": 96,
+      "median_ms": 557.5591,
+      "gflops": 0.06018094225347591,
+      "tile_bytes": 221184
+    },
+    {
+      "variant": 3,
+      "bs": 128,
+      "median_ms": 562.5466,
+      "gflops": 0.0596473821013228,
+      "tile_bytes": 393216
+    }
+  ],
+  "max_error_vs_variant2": 0.0,
+  "error_by_tile": {
+    "8": 0.0,
+    "16": 0.0,
+    "32": 0.0,
+    "64": 0.0,
+    "96": 0.0,
+    "128": 0.0
+  },
+  "best_bs": 32,
+  "verify": "VERIFY_HASH[PHASE3]: 2A54C8C7DF5B8A07 (P_log=16)"
+}

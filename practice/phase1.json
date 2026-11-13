@@ -1,0 +1,168 @@
+{
+  "student_id": 230103215,
+  "steps": 16000000,
+  "quick": false,
+  "stride_sweep": [
+    {
+      "p": 10,
+      "stride": 1,
+      "offset_bytes": 8,
+      "median_ms": 997.4942,
+      "iqr_ms": 69.1866,
+      "mops": 16.040193516914684
+    },
+    {
+      "p": 10,
+      "stride": 2,
+      "offset_bytes": 16,
+      "median_ms": 869.705,
+      "iqr_ms": 23.319499999999948,
+      "mops": 18.39704267538993
+    },
+    {
+      "p": 10,
+      "stride": 4,
+      "offset_bytes": 32,
+      "median_ms": 915.1206,
+      "iqr_ms": 97.93760000000009,
+      "mops": 17.484034344762865
+    },
+    {
+      "p": 10,
+      "stride": 8,
+      "offset_bytes": 64,
+      "median_ms": 876.9774,
+      "iqr_ms": 104.34850000000006,
+      "mops": 18.244483837325795
+    },
+    {
+      "p": 10,
+      "stride": 16,
+      "offset_bytes": 128,
+      "median_ms": 795.2532,
+      "iqr_ms": 60.17140000000006,
+      "mops": 20.11937833132894
+    },
+    {
+      "p": 10,
+      "stride": 32,
+      "offset_bytes": 256,
+      "median_ms": 795.1592,
+      "iqr_ms": 18.272299999999973,
+      "mops": 20.12175675009482
+    }
+  ],
+  "scaling": [
+    {
+      "p": 1,
+      "stride": 1,
+      "offset_bytes": 8,
+      "median_ms": 2153.059,
+      "iqr_ms": 137.0333999999998,
+      "mops": 7.431287298675976,
+      "speedup": 1.0,
+      "efficiency": 1.0,
+      "karp_flatt": null
+    },
+    {
+      "p": 2,
+      "stride": 1,
+      "offset_bytes": 8,
+      "median_ms": 1379.1034,
+      "iqr_ms": 151.0054,
+      "mops": 11.601740667160996,
+      "speedup": 1.5612020099435622,
+      "efficiency": 0.7806010049717811,
+      "karp_flatt": 0.2810641974976067
+    },
+    {
+      "p": 4,
+      "stride": 1,
+      "offset_bytes": 8,
+      "median_ms": 885.7447,
+      "iqr_ms": 62.50520000000006,
+      "mops": 18.063895838157432,
+      "speedup": 2.4307895943379623,
+      "efficiency": 0.6076973985844906,
+      "karp_flatt": 0.21518527824829695
+    },
+    {
+      "p": 8,
+      "stride": 1,
+      "offset_bytes": 8,
+      "median_ms": 915.0839,
+      "iqr_ms": 20.997600000000034,
+      "mops": 17.484735552663533,
+      "speedup": 2.352854202767637,
+      "efficiency": 0.29410677534595464,
+      "karp_flatt": 0.34287509737806265
+    },
+    {
+      "p": 16,
+      "stride": 1,
+      "offset_bytes": 8,
+      "median_ms": 883.3399,
+      "iqr_ms": 23.021999999999935,
+      "mops": 18.113072895269422,
+      "speedup": 2.437407163425993,
+      "efficiency": 0.15233794771412457,
+      "karp_flatt": 0.37095683861891376
+    },
+    {
+      "p": 1,
+      "stride": 16,
+      "offset_bytes": 128,
+      "median_ms": 1998.514,
+      "iqr_ms": 26.207499999999982,
+      "mops": 8.00594841967582,
+      "speedup": 1.0,
+      "efficiency": 1.0,
+      "karp_flatt": null
+    },
+    {
+      "p": 2,
+      "stride": 16,
+      "offset_bytes": 128,
+      "median_ms": 1254.742,
+      "iqr_ms": 15.906299999999874,
+      "mops": 12.751625433754509,
+      "speedup": 1.5927688720071536,
+      "efficiency": 0.7963844360035768,
+      "karp_flatt": 0.2556749665001097
+    },
+    {
+      "p": 4,
+      "stride": 16,
+      "offset_bytes": 128,
+      "median_ms": 1019.6281,
+      "iqr_ms": 277.1441000000001,
+      "mops": 15.691995934596152,
+      "speedup": 1.9600420977020934,
+      "efficiency": 0.49001052442552334,
+      "karp_flatt": 0.3469241646543382
+    },
+    {
+      "p": 8,
+      "stride": 16,
+      "offset_bytes": 128,
+      "median_ms": 915.9659,
+      "iqr_ms": 73.59430000000009,
+      "mops": 17.467899187076725,
+      "speedup": 2.1818650672475908,
+      "efficiency": 0.27273313340594885,
+      "karp_flatt": 0.38094112497013854
+    },
+    {
+      "p": 16,
+      "stride": 16,
+      "offset_bytes": 128,
+      "median_ms": 1033.0841,
+      "iqr_ms": 55.99410000000012,
+      "mops": 15.487606478504508,
+      "speedup": 1.9345123983613723,
+      "efficiency": 0.12090702489758577,
+      "karp_flatt": 0.48472120118581447
+    }
+  ],
+  "verify": "VERIFY_HASH[PHASE1]: 95F5631760EDA562 (P_log=16)"
+}
