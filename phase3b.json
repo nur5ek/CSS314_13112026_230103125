@@ -1,0 +1,94 @@
+{
+  "student_id": 230103215,
+  "quick": false,
+  "n": 384,
+  "rows": [
+    {
+      "variant": 1,
+      "bs": 0,
+      "median_ms": 1273.1034,
+      "gflops": 0.0889528753124059,
+      "tile_bytes": null
+    },
+    {
+      "variant": 2,
+      "bs": 0,
+      "median_ms": 1552.2063,
+      "gflops": 0.07295821953563776,
+      "tile_bytes": null
+    },
+    {
+      "variant": 3,
+      "bs": 4,
+      "median_ms": 2415.5037,
+      "gflops": 0.04688306128448489,
+      "tile_bytes": 384
+    },
+    {
+      "variant": 3,
+      "bs": 8,
+      "median_ms": 2001.0966,
+      "gflops": 0.05659207456551573,
+      "tile_bytes": 1536
+    },
+    {
+      "variant": 3,
+      "bs": 12,
+      "median_ms": 1998.5355,
+      "gflops": 0.05666459665089762,
+      "tile_bytes": 3456
+    },
+    {
+      "variant": 3,
+      "bs": 16,
+      "median_ms": 1864.6459,
+      "gflops": 0.06073335854276675,
+      "tile_bytes": 6144
+    },
+    {
+      "variant": 3,
+      "bs": 24,
+      "median_ms": 1792.2022,
+      "gflops": 0.06318829873102488,
+      "tile_bytes": 13824
+    },
+    {
+      "variant": 3,
+      "bs": 32,
+      "median_ms": 1735.8018,
+      "gflops": 0.06524143943162175,
+      "tile_bytes": 24576
+    },
+    {
+      "variant": 3,
+      "bs": 48,
+      "median_ms": 1820.2409,
+      "gflops": 0.0622149562730955,
+      "tile_bytes": 55296
+    },
+    {
+      "variant": 3,
+      "bs": 64,
+      "median_ms": 1849.9604,
+      "gflops": 0.06121547682858509,
+      "tile_bytes": 98304
+    },
+    {
+      "variant": 3,
+      "bs": 96,
+      "median_ms": 1806.6258,
+      "gflops": 0.06268382085543116,
+      "tile_bytes": 221184
+    },
+    {
+      "variant": 3,
+      "bs": 128,
+      "median_ms": 1734.2717,
+      "gflops": 0.06529900015089908,
+      "tile_bytes": 393216
+    }
+  ],
+  "max_error_vs_variant2": 0.0,
+  "best_bs": 128,
+  "verify": "VERIFY_HASH[PHASE3]: 708E885C4731AF34 (P_log=16)"
+}

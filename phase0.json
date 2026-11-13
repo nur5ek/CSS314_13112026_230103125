@@ -1,0 +1,9 @@
+{
+  "student_id": 230103215,
+  "cpu_count": 16,
+  "clock_reads": 2000000,
+  "clock_latency_ns": 56.56205,
+  "python": "3.12.10",
+  "os": "Windows-11-10.0.26200-SP0",
+  "verify": "VERIFY_HASH[PHASE0]: B1430EC18B17DE83 (P_log=16)"
+}
